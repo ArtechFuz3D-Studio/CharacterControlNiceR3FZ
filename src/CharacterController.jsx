@@ -458,6 +458,7 @@ export default function CharacterController(props) {
     // Initialize directional light
     dirLight = characterModelRef.current.parent.parent.children.find((item) => {
       return item.type === "DirectionalLight";
+      // return console.log(dirLight)
     });
 
     // Animation subscribe
